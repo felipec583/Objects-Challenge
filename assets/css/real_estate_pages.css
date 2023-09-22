@@ -11,6 +11,7 @@ h1 {
 
 img {
   display: block;
+  border-radius: 10px;
   width: 100%;
 }
 
@@ -36,11 +37,15 @@ img {
   border: 1px solid gray;
   border-radius: 10px;
   width: 350px;
-  height: 580px;
+  height: 590px;
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
   padding: 1em;
+}
+
+.card-body > * {
+  flex: 1;
 }
