@@ -1,19 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1em;
+}
+
+img {
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.property-card img {
+  height: 250px;
+}
+
 .main-section {
-    background-image: url('../img/img-main.jpeg');
-    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
-    background-position: center;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    text-align: center;
+  background-image: url("../img/img-main.jpeg");
+  background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
 }
 
 .card {
-    height: 100px;
+  height: 100px;
 }
 
-.card img{
-    height: 250px;
+.card img {
+  height: 250px;
+}
+
+.property-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 400px;
+  height: 600px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin-top: 0.5em;
+}
+
+#alquiler,
+#venta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  margin: 0 auto;
+  margin-top: 3em;
+  gap: 1em;
+  padding: 1em;
 }

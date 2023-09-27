@@ -4,17 +4,33 @@
   box-sizing: border-box;
 }
 
-h1 {
+.main-section {
+  background-image: url("../img/img-main.jpeg");
+  background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+h1,
+h2 {
   text-align: center;
   margin-top: 1em;
 }
 
 img {
   display: block;
-  border-radius: 10px;
+  border-radius: 10px 0;
   width: 100%;
 }
 
+card-img {
+  border-radius: 5px 0;
+}
 .property-card img {
   height: 250px;
 }
