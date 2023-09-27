@@ -55,6 +55,10 @@ img {
   margin-top: 0.5em;
 }
 
+.card-body > * {
+  flex: 1;
+}
+
 #alquiler,
 #venta {
   display: grid;
