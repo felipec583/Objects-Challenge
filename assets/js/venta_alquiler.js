@@ -15,7 +15,6 @@ const propertiesOnSale = [
   {
     nombre: "Casa moderna",
     src: "./assets/img/onsale-property-2.avif",
-    alt: "property on sale",
     descripcion: `Casa moderna para una familia grande que 
     busca tranquilidad y paz.`,
     ubicacion: "635 CLEARWATER DRIVE, Delta Junction, AR 99737",
